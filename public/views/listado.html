@@ -1,0 +1,7 @@
+<div>
+  {{test}}
+</div>
+
+<div ng-repeat="product in products">
+  {{product.name}} - {{product.stock}} - {{product.price}} - <a href="" ng-click="delete(product)">Eliminar</a> <a href="#/editar/{{product._id}}">Editar</a>
+</div>
