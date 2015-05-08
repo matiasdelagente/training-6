@@ -13,4 +13,4 @@ app.use('/', router);
 
 app.use(express.static('public'));
 
-app.listen(3000);
+app.listen(6000);
